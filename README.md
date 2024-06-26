@@ -18,8 +18,8 @@ The solution is in the `solution.py` file. The solution is a simple algorithm th
 1. define the logo as a list of shapes
 2. load the coordinates from the dataset
 3. for each point in the dataset check if it is inside any of the shapes
-  - The algorithm checks if the point is inside a shape by checking if it is inside the bounding box of the shape and then checking if it is inside the shape itself.
-  - for the zeros (donuts) the algorithm checks if the point is inside the outer circle and outside the inner circle.
+  - For the 1 (bar) the algorithm check if the point is within the bounding box (x and y coordinates) 
+  - For the zeros (donuts) the algorithm checks if the point is inside the outer circle and outside the inner circle.
 4. return the number of points that are inside the logo 
 
 Run the solution with the following command:
